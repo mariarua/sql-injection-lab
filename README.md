@@ -12,6 +12,7 @@ Run a MySQL terminal in docker container: `docker exec -it db-lab-mysql mysql -u
 
 When you have wheter your mysql or Oracle instance running you need to set connection info in `config/database.js` as is shown bellow:
 
+
 ```
 const host = 'localhost';
 const port = 3306;
@@ -39,6 +40,7 @@ insert into users values (1, 'Alberto', 'Contreras', 'Vendedor');
 insert into users values (2, 'Beatrice', 'Kanalas', 'Vendedor');
 insert into users values (3, 'Tom', 'Kiwitz', 'Manager');
 ```
+
 
 To run the application, first at all, you need to install node libraries with `npm install`, then you can run it with `npm start` or with `npm run debug` to follow changes in the code and recharge aoutomatically.
 
